@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EFF6FF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.content{
+    margin: 0 12%;
+    display: grid;
+    grid-template-columns: 52% 48%;
+    height: 100%;
+}
+.back{
+    background-image: url(img/bg.jpg);
+    height: 100%;
+    background-color: blue;
+}
+.logo{
+    width: 200px;
+    height: 30px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.text-content{
+    padding-top: 105px;
+    background-color: white;
+}
+h1{
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+	font-weight: 500;
+	font-size: 28px;
+    margin-left: 77px;
+    color:#2A4A5C;
+}
+
+.header p{
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+	font-weight: 400;
+	font-size: 19.5px;
+    margin-top: 14px;
+    margin-left: 77px;
+    color:#2A4A5C;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 57px;
+}
+#facebookbtn, #linkedinbtn {
+    width:250px;
+    height: 45px;
+    background-color: #255A9B;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+	font-weight: 400;
+    font-size: 14px;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+#linkedinbtn{
+    margin-left: 30px;
+    background-color: #0076B6;
+}
+#facebookbtn img{
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 22px;
+}
+#linkedinbtn img{
+    width: 20px;
+    height: 20px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.lines{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+hr{
+    height: 1px;
+    border: none;
+    background-color: #EEEEEE;
+}
+.lines span{
+    display: inline-block;
+    margin: 0 10px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+	font-weight: 400;
+    font-size: 11px;
+}
+
+.contacts form{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts input{
+    width: 240px;
+    height: 25px;
+    border: 1px solid #EEEEEE;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+	font-weight: 400;
+    font-size: 20px;
+}
+.contacts   label{
+    position: relative;
+    top:20px;
+    left: 10px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+	font-weight: 400;
+    font-size: 15px;
+    color:#AFAFAF;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.column:nth-of-type(2){
+    margin-left: 30px;
+}
+
+input:focus{
+    outline: none;
+}
+.type{
+    margin-top: 60px;
+    margin-left: 77px;
+}
+.type h2{
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+	font-weight: 500;
+    font-size: 21px;
+    color: #2A4A5C;
+}
+.radiobox{
+    margin-left: 77px;
+}
+.radiobox p{
+    margin-top: 10px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+	font-weight: 400;
+    font-size: 15px;
+    color:#7B8A92;
+}
+.radioboxes{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.radiobox label{
+    margin-right: 40px;
+    margin-left: 10px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+	font-weight: 500;
+    font-size: 15px;
+    color:#2A4A5C;
+    display: flex;
+    align-items: center;
+}
+
+.radiobox img{
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+
+}
+
+.helper{
+    width: 240px;
+    margin-top: 25px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.08);
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+	font-weight: 200;
+    font-size: 15px;
+    color:#7B8A92;
+}
+
+.terms{
+    margin-left: 77px;
+    margin-top: 50px;
+}
+
+.terms label{
+    margin-left: 10px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+	font-weight: 200;
+    font-size: 15px;
+    color:#7B8A92;
+}
+.terms a{
+    color:#3698FB;
+}
+
+.create{
+    margin: 60px 77px 100px;
+    width: 250px;
+    height: 45px;
+    background-color: #3698FB;
+    border: none;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+	font-weight: 500;
+    font-size: 17px;
+    color:red;
+}
